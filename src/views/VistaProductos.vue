@@ -26,15 +26,12 @@
             <button v-if="producto.stock_producto">Añadir al carrito</button>
         </div>
     </div>
-
-
   </section>
 </template>
 
 <script>
 export default {
     name:'VistaProductos'
-
 }
 </script>
 
@@ -63,12 +60,15 @@ export default {
             align-items: center
             justify-content: space-between
             flex-direction: column
+            // #img_nostock
+            // transition: .8s
+            // &:hover
+            //     filter: grayscale(100%)
             img
                 animation-duration: 3s
                 width: 100%
                 box-shadow: 1px 14px 44px -33px rgba(208,212,210,1)
                 -webkit-box-shadow: 1px 14px 44px -33px rgba(208,212,210,1)
-                -moz-box-shadow: 1px 14px 44px -33px rgba(208,212,210,1)
             h1,h3,span
                 margin: .2rem
                 text-align: center
@@ -102,10 +102,4 @@ export default {
                     background: #d0d4d2
                     color: #e95010
                     border: 2px solid #e95010
-                    
-
-
-
-
-
 </style>

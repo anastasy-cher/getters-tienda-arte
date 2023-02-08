@@ -1,7 +1,7 @@
 <template>
   <section id="productos">
     <div id="check">
-        <input type="checkbox" v-model="$store.state.stock">
+        <input type="checkbo    x" v-model="$store.state.stock">
         <span> artículos disponibles</span>
         <!-- <h1>{{ $store.state.stock }}</h1> -->
     </div>
@@ -65,7 +65,7 @@ export default {
             // &:hover
             //     filter: grayscale(100%)
             img
-                animation-duration: 3s
+                animation-duration: 2s
                 width: 100%
                 box-shadow: 1px 14px 44px -33px rgba(208,212,210,1)
                 -webkit-box-shadow: 1px 14px 44px -33px rgba(208,212,210,1)
@@ -83,7 +83,7 @@ export default {
                 height: 50px
                 width: 60%
                 border-radius: 5px
-                transition: 1s
+                transition: .3s
                 &:hover
                     filter: grayscale(100%)
 
@@ -97,7 +97,7 @@ export default {
                 margin-top: .3rem
                 border: none
                 cursor: pointer
-                transition: .6s
+                transition: .4s
                 &:hover
                     background: #d0d4d2
                     color: #e95010

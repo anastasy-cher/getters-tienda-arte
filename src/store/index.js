@@ -11,9 +11,9 @@ export default createStore({
         stock_producto:true
       },
       {
-        nombre: 'Paisaje 2',
-        precio:2,
-        imagen: 'https://ae01.alicdn.com/kf/HTB1vWjERVXXXXbkXFXXq6xXFXXX1.jpg?size=309392&height=700&width=900&hash=b53cf4cf47a35ab8be2ca463b599c4a5',
+        nombre:'Paisaje 4',
+        precio: 4,
+        imagen: 'https://depiedra.ws/uploads/products/mod-55-extra_crop_926_720.jpg',
         stock_producto:false
       },
       {
@@ -23,9 +23,9 @@ export default createStore({
         stock_producto:true
       },
       {
-        nombre:'Paisaje 4',
-        precio: 4,
-        imagen: 'https://depiedra.ws/uploads/products/mod-55-extra_crop_926_720.jpg',
+        nombre: 'Paisaje 2',
+        precio:2,
+        imagen: 'https://ae01.alicdn.com/kf/HTB1vWjERVXXXXbkXFXXq6xXFXXX1.jpg?size=309392&height=700&width=900&hash=b53cf4cf47a35ab8be2ca463b599c4a5',
         stock_producto:false
       }
     ],
